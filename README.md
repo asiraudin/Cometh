@@ -1,7 +1,8 @@
-# Cometh : A Continuous-Time Discrete-State Graph Diffusion Model
+# ☄️ Cometh : A Continuous-Time Discrete-State Graph Diffusion Model
 
 Official Pytorch implementation of Cometh : A Continuous-Time Discrete-State Graph Diffusion Model.
-Paper link : [https://arxiv.org/abs/2406.06449](https://arxiv.org/abs/2406.06449)
+
+> Paper link : [https://arxiv.org/abs/2406.06449](https://arxiv.org/abs/2406.06449)
 
 ## 🧱 Environment Installation
 
