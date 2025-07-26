@@ -1,0 +1,6 @@
+name: planar
+remove_h: null
+datadir: '/work/log1/antoine.siraudin/ctdgg/data/planar/'
+random_subset: null
+pin_memory: False
+bucketloader: False

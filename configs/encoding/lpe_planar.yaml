@@ -1,0 +1,11 @@
+extra_features: 'eigen'
+use_cycles: True
+encoding : 'lpe'
+num_vecs: 24
+rho_type: 'Deepset'
+rho_layers: 3
+n_heads: 4
+dim_pe: 24
+after_mlp: False
+
+molecular_features: 'all'

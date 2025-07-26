@@ -1,0 +1,7 @@
+extra_features: null
+use_cycles: False
+encoding : 'rwse'
+n_steps: [1,2,3,4]
+dim_pe: 8
+after_mlp: False
+molecular_features: 'all'

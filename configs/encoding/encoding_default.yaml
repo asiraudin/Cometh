@@ -1,0 +1,3 @@
+use_cycles: True
+encoding: 'digress'                   # 'digress', 'lpe', 'signnet' or 'spe'
+molecular_features: 'all'

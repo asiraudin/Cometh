@@ -1,0 +1,23 @@
+# @package _global_
+general:
+    name : 'qm9_no_h_marginal'
+    gpus : 1
+    wandb: 'online'
+    test_only: 'checkpoints/qm9.ckpt'
+    evaluate_all_checkpoints: False
+    num_final_sampling: 5
+    final_seeds: [0,1,2,3,4]
+train:
+    n_epochs: 500
+    batch_size: 512
+    ema_decay: 0.999
+    save_model: True
+model:
+    n_layers: 9
+    lambda_train: [1, 5]
+    rate_constant: [5., 5., 1.]
+    transition: "marginal"
+    diffusion_steps: 500
+    corrector_entry_time: 0.
+    corrector_num_steps: 0
+    corrector_tau_multiplier: 0.1

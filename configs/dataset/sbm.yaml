@@ -1,0 +1,7 @@
+name: sbm
+remove_h: null
+datadir: '/work/log1/antoine.siraudin/ctdgg/data/sbm/'
+random_subset: null
+pin_memory: True
+bucketloader: True
+thresholds: [100, 150, 200]

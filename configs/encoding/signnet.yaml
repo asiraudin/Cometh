@@ -1,0 +1,12 @@
+extra_features: 'eigen'
+use_cycles: True
+encoding : 'signnet'
+num_vecs: 9
+phi_layers: 8
+phi_hidden: 64
+phi_out: 64
+rho_layers: 3
+dim_pe: 9
+after_mlp: False
+
+molecular_features: 'all'
