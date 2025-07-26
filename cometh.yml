@@ -1,4 +1,4 @@
-name: digress
+name: cometh
 channels:
   - pytorch
   - nvidia
