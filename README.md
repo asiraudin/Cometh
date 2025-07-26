@@ -35,7 +35,7 @@ g++ -O2 -std=c++11 -o orca orca.cpp
 
 We provide checkpoints for all the datasets in this [folder](https://drive.google.com/drive/folders/1bRct8zRDpYb_WkY4adtjWWuJi3WpwZ0v?usp=sharing)
 
-For each dataset, there are two checkoints, one for the original model and one the EMA weights. To load a model and sample from it, place the two checkpoints in the same folder and run : 
+For each dataset, there are two checkpoints, one for the original model and one the EMA weights. To load a model and sample from it, place the two checkpoints in the same folder and run : 
 
 ```python main.py +experiment=qm9_sampling.yaml encoding=rrwp general.test_only="path_to_your_checkpoint"```
 
