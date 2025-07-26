@@ -25,8 +25,12 @@ g++ -O2 -std=c++11 -o orca orca.cpp
 ```
 
 
-## 🛠 Run the code
+## 🚀 Run the code
 
 - To train the model, e.g. on QM9, run ```python main.py +experiment=qm9.yaml encoding=rrwp```
 - To sample from a model, run ```python main.py +experiment=qm9_sampling.yaml encoding=rrwp```
 - Since we use different hyperparameters for RRWP depending on the dataset, the encoding config differs from one dataset to another. The corresponding argument for 'encoding' are rrwp for QM9, rrwp_planar for Planar and rrwp_moses for SBM, MOSES and GuacaMol.
+
+## 📍 Checkpoints
+
+We provide checkpoints for all the datasets in this [folder](https://drive.google.com/drive/folders/1bRct8zRDpYb_WkY4adtjWWuJi3WpwZ0v?usp=sharing)
